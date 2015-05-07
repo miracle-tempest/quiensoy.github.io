@@ -17,6 +17,7 @@ body {
 .inner {
 	display: table-cell;
 	vertical-align: middle;
+	height: 100%;
 	width: 100%;
 }
 nav {
@@ -28,8 +29,11 @@ nav {
 
 }
 .navitem {
-	width: 18%;
+	width: auto;
 	height: 100%;
 	display: inline;
 	float: left;
+}
+.navitem:hover {
+	background-color: #e74c3c;
 }
