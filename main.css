@@ -10,21 +10,25 @@ body {
 	width: 100%;
 }
 nav {
-	color: #f39c12;
+	color: #130f0e;
 	height: 60px;
-	padding-top: 5px;
 	font-weight: 500;
-	font-size: 2.8vw;
+	font-size: 2.5vw;
 
 }
 .navitem {
+	padding-top: 10px;
 	min-width: 20%;
 	max-width: 20%;
 	height: 100%;
 	display: inline-block;
 	float: left;
 	text-align: center;
+	-webkit-transition-duration: 0.3s;
+	-o-transition-duration: 0.3s;
+	transition-duration: 0.3s;
 }
 .navitem:hover {
 	background-color: #e74c3c;
+	color: #ecf0f1;
 }
