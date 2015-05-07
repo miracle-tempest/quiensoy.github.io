@@ -31,4 +31,5 @@ nav {
 .navitem {
 	width: 20%;
 	height: 100%;
+	display: inline-block;
 }
