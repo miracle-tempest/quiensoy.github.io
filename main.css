@@ -33,8 +33,8 @@ nav {
 
 @media only screen and (min-resolution: 117dpi) and (max-resolution: 119dpi), only screen and (min-resolution: 131dpi) and (max-resolution: 133dpi), only screen and (min-resolution: 145dpi) and (max-resolution: 154dpi), only screen and (min-resolution: 162dpi) and (max-resolution: 164dpi), only screen and (min-resolution: 169dpi) {
   .navitem {
-  	min-width: 100%;
-  	max-width: 100%;
+  	min-width: 100vw;
+  	max-width: 100vw;
   	padding: 4px 0;
   }
   .navitem:hover {
