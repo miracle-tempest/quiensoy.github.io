@@ -17,7 +17,6 @@ body {
 .inner {
 	display: table-cell;
 	vertical-align: middle;
-	text-align: center;
 	width: 100%;
 }
 nav {
