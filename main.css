@@ -13,6 +13,11 @@ nav {
 	color: #130f0e;
 	font-weight: 500;
 	font-size: 2vw;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	-o-user-select: none;
+	user-select: none;
 
 }
 .navitem {
@@ -34,7 +39,7 @@ nav {
 @media only screen and (min-resolution: 117dpi) and (max-resolution: 119dpi), only screen and (min-resolution: 131dpi) and (max-resolution: 133dpi), only screen and (min-resolution: 145dpi) and (max-resolution: 154dpi), only screen and (min-resolution: 162dpi) and (max-resolution: 164dpi), only screen and (min-resolution: 169dpi) {
   .navitem {
   	min-width: 100%;
-  	max-width: 100%;
+  	max-width: 100%;x
   	display: block;
   	padding: 4px 0;
   }
