@@ -53,11 +53,13 @@ h1 {
 	font-weight: 400;
 }
 
-
+p 
 
 
 @media only screen and (max-device-width: 480px) {
-
+nav {
+	content: "You really shouldn't be viewling this on a phone";
+}
 .navitem {
   	min-width: 100%;
   	max-width: 100%;
