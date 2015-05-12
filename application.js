@@ -1,18 +1,18 @@
 $(document).ready(function() {
-	$('.1').on('click', 'span', function() {
+	$('span').on('click', '.1', function() {
 		alert('sadfsd');
 		$('.content').find('.1').show();
 	});
 
-	$('.2').on('click', 'span', function() {
+	$('span').on('click', '.2', function() {
 		$('.content').find('.2').show();
 	});
 
-	$('.3').on('click', 'span', function() {
+	$('span').on('click', '.3', function() {
 		$('.content').find('.3').show();
 	});
 
-	$('.4').on('click', 'span', function() {
+	$('span').on('click', '.4', function() {
 		$('.content').find('.4').show();
 	});
 
