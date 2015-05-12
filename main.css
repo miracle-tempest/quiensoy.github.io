@@ -56,8 +56,11 @@ h1 {
 p {
 	opacity: 0.95;
 	font-size: 2vw;
+	text-align: center;
 }
-
+p:first-child {
+	margin-top: 50px;
+}
 
 @media only screen and (max-device-width: 480px) {
 nav {
