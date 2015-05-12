@@ -13,6 +13,8 @@ body {
 	color: #130f0e;
 }
 nav {
+	position: fixed;
+	z-index: 2;
 	font-weight: 500;
 	font-size: 2vw;
 	-webkit-user-select: none;
@@ -52,7 +54,9 @@ nav {
   	color: #130f0e;
   }
 }
-
+.content {
+	margin-top: 110px;
+}
 .item {
 	display: none;
 	padding: 40px;
