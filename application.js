@@ -1,6 +1,5 @@
 $(document).ready(function() {
-	alert('loaded');
-	$('.navitem').each().on('click', function() {
+	$('.navitem').on('click', function() {
 		alert('hello');
 	});
 
