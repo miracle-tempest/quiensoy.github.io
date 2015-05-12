@@ -14,6 +14,7 @@ body {
 }
 nav {
 	position: fixed;
+	top: 0;
 	z-index: 2;
 	font-weight: 500;
 	font-size: 2vw;
@@ -41,19 +42,6 @@ nav {
 	color: #ecf0f1;
 }
 
-@media only screen and (max-device-width: 480px) {
-
-.navitem {
-  	min-width: 100%;
-  	max-width: 100%;x
-  	display: block;
-  	padding: 4px 0;
-  }
-.navitem:hover {
-  	background-color: #ecf0f1;
-  	color: #130f0e;
-  }
-}
 .content {
 	margin-top: 110px;
 }
@@ -64,4 +52,21 @@ nav {
 h1 {
 	text-align: center;
 	font-weight: 400;
+}
+
+
+
+
+@media only screen and (max-device-width: 480px) {
+
+.navitem {
+  	min-width: 100%;
+  	max-width: 100%;
+  	display: block;
+  	padding: 4px 0;
+  }
+.navitem:hover {
+  	background-color: #ecf0f1;
+  	color: #130f0e;
+  }
 }
