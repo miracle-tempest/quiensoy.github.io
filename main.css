@@ -52,7 +52,9 @@ h1 {
 	text-align: center;
 	font-weight: 400;
 }
-
+div.1 {
+	display: block;
+}
 p {
 	opacity: 0.95;
 	font-size: 2vw;
