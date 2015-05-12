@@ -46,8 +46,7 @@ nav {
 }
 .item {
 	display: none;
-	margin-top: 110px;
-	padding: 40px;
+	padding: 100px 40px;
 }
 h1 {
 	text-align: center;
