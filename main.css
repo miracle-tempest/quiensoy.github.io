@@ -53,7 +53,10 @@ h1 {
 	font-weight: 400;
 }
 
-p 
+p {
+	opacity: 0.95;
+	font-size: 2vw;
+}
 
 
 @media only screen and (max-device-width: 480px) {
