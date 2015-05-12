@@ -59,7 +59,7 @@ p {
 	text-align: center;
 }
 p:first-child {
-	margin-top: 50px;
+	margin-top: 90px;
 }
 
 @media only screen and (max-device-width: 480px) {
