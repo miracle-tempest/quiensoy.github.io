@@ -1,7 +1,5 @@
 $(document).ready(function() {
-	$('body')hide();
-	$('body')fadeIn();
-	$('.content').find('.1').fadeIn();
+	$('.content').find('.1').show();
 	$('span.1').on('click', function() {
 		$('.content').children('*').hide();
 		$('.content').find('.1').fadeIn();
@@ -19,7 +17,7 @@ $(document).ready(function() {
 
 	$('span.4').on('click', function() {
 		$('.content').children('*').hide();
-		$('.content').find('.4').fadeIn();
+		$('.content').find('.4').fadeIn();	
 	});
 
 	$('span.5').on('click', function() {
