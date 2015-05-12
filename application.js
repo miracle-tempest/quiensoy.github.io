@@ -1,4 +1,5 @@
 $(document).ready(function() {
+	$('.content').find('.1').slideUp(1);
 	$('span.1').on('click', function() {
 		$('.content').find('.1').slideToggle('slow');
 	});
