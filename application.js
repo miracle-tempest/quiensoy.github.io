@@ -1,6 +1,6 @@
 $(document).ready(function() {
-	$('.navitem').on('click', function() {
-		alert('hello');
+	$('.1').on('click', 'nav', function() {
+		$('.content').find('.1').show();
 	});
 
 
