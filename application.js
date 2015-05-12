@@ -1,27 +1,27 @@
 $(document).ready(function() {
 	$('span.1').on('click', function() {
-		$('.content').children('*').hide();
+		$('.content').children('*').fadeOut();
 		$('.content').find('.1').fadeIn();
 	});
 
 	$('span.2').on('click', function() {
-		$('.content').children('*').hide();
-		$('.content').find('.2').show();
+		$('.content').children('*').fadeOut();
+		$('.content').find('.2').fadeIn();
 	});
 
 	$('span.3').on('click', function() {
-		$('.content').children('*').hide();
-		$('.content').find('.3').show();
+		$('.content').children('*').fadeOut();
+		$('.content').find('.3').fadeIn();
 	});
 
 	$('span.4').on('click', function() {
-		$('.content').children('*').hide();
-		$('.content').find('.4').show();
+		$('.content').children('*').fadeOut();
+		$('.content').find('.4').fadeIn();
 	});
 
 	$('span.5').on('click', function() {
-		$('.content').children('*').hide();
-		$('.content').find('.5').show();
+		$('.content').children('*').fadeOut();
+		$('.content').find('.5').fadeIn();
 	});
 
 
