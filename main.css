@@ -13,8 +13,7 @@ body {
 	color: #130f0e;
 }
 nav {
-	position: fixed;
-	top: 0;
+	position: sticky;
 	z-index: 2;
 	font-weight: 500;
 	font-size: 2vw;
