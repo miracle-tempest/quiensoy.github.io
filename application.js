@@ -1,18 +1,18 @@
 $(document).ready(function() {
-	$('span').on('click', '.1', function() {
+	$('span').hasClass('1').on('click', function() {
 		alert('sadfsd');
 		$('.content').find('.1').show();
 	});
 
-	$('span').on('click', '.2', function() {
+	$('span').hasClass('2').on('click', function() {
 		$('.content').find('.2').show();
 	});
 
-	$('span').on('click', '.3', function() {
+	$('span').hasClass('3').on('click', function() {
 		$('.content').find('.3').show();
 	});
 
-	$('span').on('click', '.4', function() {
+	$('span').hasClass('4').on('click', function() {
 		$('.content').find('.4').show();
 	});
 
