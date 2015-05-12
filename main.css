@@ -57,6 +57,7 @@ p {
 	opacity: 0.95;
 	font-size: 2vw;
 	text-align: center;
+	margin-bottom: 5px;
 }
 p:first-child {
 	margin-top: 90px;
