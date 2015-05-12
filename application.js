@@ -1,7 +1,7 @@
 $(document).ready(function() {
 	$('span.1').on('click', function() {
 		$('.content').children('*').hide();
-		$('.content').find('.1').show();
+		$('.content').find('.1').fadeIn();
 	});
 
 	$('span.2').on('click', function() {
