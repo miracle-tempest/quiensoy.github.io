@@ -1,4 +1,7 @@
 $(document).ready(function() {
+	$('body')hide();
+	$('body')fadeIn();
+	$('.content').find('.1').fadeIn();
 	$('span.1').on('click', function() {
 		$('.content').children('*').hide();
 		$('.content').find('.1').fadeIn();
