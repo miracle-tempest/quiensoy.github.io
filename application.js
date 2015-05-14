@@ -1,4 +1,5 @@
 $(document).ready(function() {
+	// Making the pages change
 	$('.content').find('.1').show();
 	$('span.1').on('click', function() {
 		$('.content').children('*').hide();
@@ -24,6 +25,16 @@ $(document).ready(function() {
 		$('.content').children('*').hide();
 		$('.content').find('.5').fadeIn();
 	});
-
-
+	// Making the images larger on click
+	$("#imgtab").toggle(function () { //fired the first time
+        $("#imgtab").animate({
+            width: "200px"
+            height: "116px"
+        });
+    }, function () { // fired the second time 
+        $("#imgtab").animate({
+            width: "400px"
+            height: "232px"
+        });
+    });
 });
