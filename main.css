@@ -92,3 +92,8 @@ img {
     text-align: center;
     margin: 40px auto;
 }
+
+*::selection {
+    background-color: #9b59b6;
+    color: #ecf0f1;
+}
