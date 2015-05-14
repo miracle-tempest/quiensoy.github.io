@@ -13,6 +13,7 @@ body {
     height: 100%;
     width: 100vw;
     color: #130f0e;
+    text-align: center;
 }
 
 nav {
@@ -88,5 +89,6 @@ p:first-child {
 
 img {
     width: 60vw;
+    text-align: center;
     margin: 40px auto;
 }
