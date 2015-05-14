@@ -28,9 +28,9 @@ $(document).ready(function () {
     $("#imgtab").on('click', function () {
         // Making the images larger on click
         $("#imgtab").toggle(function () { //fired the first time
-            $("#imgtab").css("width": "60vw")
+            $("#imgtab").css({"width": "60vw"})
         }, function () { // fired the second time 
-            $("#imgtab").css("width": "60vw")
+            $("#imgtab").css({"width": "60vw"})
         });
     });
 });
