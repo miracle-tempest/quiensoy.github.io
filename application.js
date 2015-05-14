@@ -25,7 +25,8 @@ $(document).ready(function() {
 		$('.content').children('*').hide();
 		$('.content').find('.5').fadeIn();
 	});
-	// Making the images larger on click
+	$("#imgtab").on('click', function() {
+		// Making the images larger on click
 	$("#imgtab").toggle(function () { //fired the first time
         $("#imgtab").animate({
             width: "60vw"
@@ -35,4 +36,8 @@ $(document).ready(function() {
             width: "30vw"
         });
     });
+
+
+	});
+	
 });
