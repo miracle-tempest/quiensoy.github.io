@@ -28,13 +28,11 @@ $(document).ready(function() {
 	// Making the images larger on click
 	$("#imgtab").toggle(function () { //fired the first time
         $("#imgtab").animate({
-            width: "200px"
-            height: "116px"
+            width: "30vw"
         });
     }, function () { // fired the second time 
         $("#imgtab").animate({
-            width: "400px"
-            height: "232px"
+            width: "60vw"
         });
     });
 });
