@@ -30,10 +30,12 @@ $(document).ready(function() {
 	$("#imgtab").toggle(function () { //fired the first time
         $("#imgtab").animate({
             width: "60vw"
+            height: "auto"
         });
     }, function () { // fired the second time 
         $("#imgtab").animate({
             width: "30vw"
+            height: "auto"
         });
     });
 
