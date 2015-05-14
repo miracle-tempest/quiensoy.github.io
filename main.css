@@ -1,79 +1,92 @@
 @import url(http://fonts.googleapis.com/css?family=Lato);
 /*RESET*/
+
 * {
-	margin: 0;
-	padding: 0;
+    margin: 0;
+    padding: 0;
 }
 /*STYLES*/
-body {
-	background-color: #ecf0f1;
-	font-family: 'Lato', sans-serif;
-	height: 100%;
-	width: 100vw;
-	color: #130f0e;
-}
-nav {
-	position: sticky;
-	z-index: 20;
-	font-weight: 500;
-	font-size: 2vw;	
-	-webkit-user-select: none;
-	-moz-user-select: none;
-	-ms-user-select: none;
-	-o-user-select: none;
-	user-select: none;
-	cursor: pointer;
 
+body {
+    background-color: #ecf0f1;
+    font-family: 'Lato', sans-serif;
+    height: 100%;
+    width: 100vw;
+    color: #130f0e;
 }
+
+nav {
+    position: sticky;
+    z-index: 20;
+    font-weight: 500;
+    font-size: 2vw;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    -o-user-select: none;
+    user-select: none;
+    cursor: pointer;
+}
+
 .navitem {
-	padding: 20px 0;
-	min-width: 20%;
-	max-width: 20%;
-	display: inline-block;
-	float: left;
-	text-align: center;
-	-webkit-transition-duration: 0.3s;
-	-o-transition-duration: 0.3s;
-	transition-duration: 0.3s;
+    padding: 20px 0;
+    min-width: 20%;
+    max-width: 20%;
+    display: inline-block;
+    float: left;
+    text-align: center;
+    -webkit-transition-duration: 0.3s;
+    -o-transition-duration: 0.3s;
+    transition-duration: 0.3s;
 }
+
 .navitem:hover {
-	background-color: #e74c3c;
-	color: #ecf0f1;
+    background-color: #e74c3c;
+    color: #ecf0f1;
 }
 
 .content {
-	z-index: 0;
+    z-index: 0;
 }
+
 .item {
-	display: none;
-	padding: 40px;
+    display: none;
+    padding: 40px;
 }
+
 h1 {
-	text-align: center;
-	font-weight: 400;
+    text-align: center;
+    font-weight: 400;
 }
+
 p {
-	opacity: 0.95;
-	font-size: 2vw;
-	text-align: center;
-	margin-bottom: 10px;
+    opacity: 0.95;
+    font-size: 2vw;
+    text-align: center;
+    margin-bottom: 10px;
 }
+
 p:first-child {
-	margin-top: 90px;
+    margin-top: 90px;
 }
 
 @media only screen and (max-device-width: 480px) {
-nav {
-	content: "You really shouldn't be viewling this on a phone";
+    nav {
+        content: "You really shouldn't be viewling this on a phone";
+    }
+    .navitem {
+        min-width: 100%;
+        max-width: 100%;
+        display: block;
+        padding: 4px 0;
+    }
+    .navitem:hover {
+        background-color: #ecf0f1;
+        color: #130f0e;
+    }
 }
-.navitem {
-  	min-width: 100%;
-  	max-width: 100%;
-  	display: block;
-  	padding: 4px 0;
-  }
-.navitem:hover {
-  	background-color: #ecf0f1;
-  	color: #130f0e;
-  }
+
+img {
+    width: 60vw;
+    margin: 40px auto;
 }
