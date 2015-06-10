@@ -1,2 +1,3 @@
 # quiensoy.github.io
-Spanish I Final
+Spanish I Final Project
+Copied navbar for server site
